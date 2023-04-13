@@ -1,0 +1,64 @@
+@mixin avatar {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+@mixin cover {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.profile-container {
+    width: 1296px;
+    height: auto;
+    position: relative;
+}
+
+.user-cover-img { 
+    img {
+        @include cover;
+    }
+}
+
+.user-avatar-img {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 225px;
+    img {
+        position: absolute;
+        border: 5px #fff solid;
+        left: 50%;
+        margin-left: -75px;
+        @include avatar;
+    }
+}
+
+.user-information-container {
+    padding: 100px;
+    margin: auto;
+
+
+    table {
+        width: 50%;
+    }
+
+    th {
+        width: 25%;
+    }
+
+    td, th {
+        padding: 20px;
+    }
+}
+
+.cover {
+    @include cover;
+}
+
+.avatar {
+    @include avatar;
+}

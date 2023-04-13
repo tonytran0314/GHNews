@@ -1,0 +1,55 @@
+.profile-container {
+  width: 1296px;
+  height: auto;
+  position: relative;
+}
+
+.user-cover-img img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.user-avatar-img {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: 225px;
+}
+.user-avatar-img img {
+  position: absolute;
+  border: 5px #fff solid;
+  left: 50%;
+  margin-left: -75px;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.user-information-container {
+  padding: 100px;
+  margin: auto;
+}
+.user-information-container table {
+  width: 50%;
+}
+.user-information-container th {
+  width: 25%;
+}
+.user-information-container td, .user-information-container th {
+  padding: 20px;
+}
+
+.cover {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.avatar {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+}/*# sourceMappingURL=user.css.map */
